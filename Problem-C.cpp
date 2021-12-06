@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
@@ -64,8 +63,7 @@ int main()
 	for (int i = 1; i <= steps; i++)
     {
         cout << START_ITEM;
-        data = CURRENT_MAX_VALUE(items, data);
+        START_ITEM = CURRENT_MAX_VALUE(items, START_ITEM);
     }
     return 0;
 }
-
