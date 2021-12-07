@@ -55,7 +55,7 @@ int main()
     
     cin >> steps;
     
-    char START_ITEM = maxValue(items); // get 1 char most preferred in string items
+    char START_ITEM = maxValue(items);  // get 1 char most preferred in string items
     
     if (items.length() < 2)
         items += " ";
