@@ -60,7 +60,7 @@ int main()
     if (items.length() < 2)
         items += " ";
     
-	for (int i = 1; i <= steps; i++)
+    for (int i = 1; i <= steps; i++)
     {
         cout << START_ITEM;
         START_ITEM = CURRENT_MAX_VALUE(items, START_ITEM);
